@@ -13,6 +13,12 @@
 
 <br/>
 
+## 고민 포인트 (마주한 문제 해결 과정) 정리
+
+Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1231/javascript-calculator-8/wiki">바로 기기</a>
+
+<br/>
+
 ## 문제 분석 및 설계
 
 ### 기능 분석, 할 일 단위 나누기
@@ -59,9 +65,3 @@
   - <a href="https://www.npmjs.com/package/@woowacourse/mission-utils?activeTab=readme">`@woowacourse/mission-utils`의 문서 내용을 바탕으로 입출력 메소드 작성</a>
 
 <br/>
-
-### 고민 포인트 (마주한 문제 해결 과정) 정리
-
-Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1231/javascript-calculator-8/wiki">바로 기기</a>
-
-<br>
