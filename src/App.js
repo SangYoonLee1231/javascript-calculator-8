@@ -29,8 +29,21 @@ export default App;
 
 //
 
-function extractDelimiters(inputStr) {}
+// 구분자 추출 함수 구현
+function extractDelimiters(inputStr) {
+  const delimitersArray = [",", ":"]; // 기본 구분자
 
+  // 커스텀 구분자 처리
+  if (inpurStr.startsWith("//") && inputStr[3] === "\n") {
+    const customDelimiter = inputStr[2];
+    delimitersArray.push(customDelimiter);
+  }
+
+  return delimitersArray;
+}
+
+// 숫자 추출 함수 구현
 function extractNumbers(inputStr, delimiters) {}
 
+// 숫자 합계 계산 함수 구현
 function calculateSum(numbers) {}
