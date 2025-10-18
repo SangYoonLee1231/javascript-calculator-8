@@ -23,11 +23,15 @@ Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1
 
 ### 기능 분석, 할 일 단위 나누기
 
-- [ ] 입출력값을 처리하는 기본 로직 + 함수의 뼈대 구현
+- [ ] 입출력값을 처리하는 기본 로직 및 함수의 뼈대 구현 + 에러 처리 로직 구현
 - [ ] 커스텀 구분자를 추출하는 함수 구현
 - [ ] 모든 구분자로 입력 문자열에서 숫자를 추출하는 함수 구현
 - [ ] 추출한 숫자를 모두 더하는 함수 구현
 - [ ] 로직 테스트 및 버그 수정
+
+#### 추가 구현 가능 사항
+
+- [ ] 에러 로직 세분화 ()
 
 <br/>
 
@@ -37,6 +41,7 @@ Wiki에 기록하였습니다. 👉🏻 <a href="https://github.com/SangYoonLee1
 
   - App 클래스는 I/O 오케스트레이션만 담당하고, 실제 계산 로직은 ‘순수 함수’로 분리
   - <a href="https://www.npmjs.com/package/@woowacourse/mission-utils?activeTab=readme">`@woowacourse/mission-utils`의 문서 내용</a>을 바탕으로 입출력 메소드 작성
+  - 에러 처리 로직 작성
 
 - 계산 로직을 담당하는 3개의 함수를 설계
 
