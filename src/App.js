@@ -70,5 +70,5 @@ function extractNumbers(inputStr, delimiters) {
 
 // 숫자 합계 계산 함수 구현
 function calculateSum(numbers) {
-  return numbers.reduce((acc, cur) => acc + cur, 0);
+  return numbers.reduce((sumOfNums, number) => sumOfNums + number, 0);
 }
